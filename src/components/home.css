@@ -1,0 +1,348 @@
+.backG{
+    background-color: rgb(5, 5, 57);
+    margin: 0%;
+    padding: 0;
+    height: max-height;
+    width: max-width;
+    color: white;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+a{
+    color: inherit !important;
+    text-decoration: none !important;
+}
+.nav_bar{
+    display: flex; 
+    float: right;
+}
+#home{
+    color: aqua;
+}
+#contact{
+    background-image: linear-gradient(90deg, cyan, rgb(3, 8, 134));
+    border-radius: 3px;
+    padding: 5px 10px 5px  ;
+}
+.nav_comp{
+    
+    font-size: 80%;
+    /* border: 1px solid white; */
+    margin: 10px;
+    padding: 2px;
+}
+p{
+    line-height: 1%;
+    color: grey;
+    font-size: 200% ;
+    font-weight: bold;
+    padding-left: 10%;
+    padding-top: 200px;
+}
+#role{
+    line-height: 80%;
+    color: bisque;
+    /* text-shadow: 2px 2px 3px  rgb(97, 97, 175); */
+    font-size: 500%;
+    font-family: garamond;
+    font-weight: bold;
+    margin: 0%;
+    border: 0;
+    word-wrap: wrap;
+    max-width: 60%;
+    padding-top: 0;
+}
+#about_me_sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.container {
+    /* width: 150px;
+    height: 150px; */
+    position: relative;
+    margin: 30px;
+  }
+.about_me{
+    height: 200px;
+    width: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: absolute;
+    top: 0;
+    left: 100px;
+    opacity: 1;
+    background: #0057e3;
+}
+.square_3{
+    height: 5px;
+    width: 5px;
+    
+}
+.square_2{
+    height: 190px;
+    width: 190px;
+    margin-left: 10px;
+    border: white;
+    margin-top: 5px;
+    opacity: 1;
+    background:  rgb(5, 5, 57);
+    border-radius:5px ;
+    
+}
+.square{
+    height: 210px;
+    width: 210px;
+    margin-top: 110px;
+    margin-left: 100px;
+    margin-right: 10;
+    margin-bottom: 100px;
+    z-index: 9;
+    background: cyan;
+    border-radius: 5px;
+}
+.About{
+    color: white;
+    background-color: rgb(5, 5, 57);
+    display: flexbox;
+    justify-content: center;
+    width: 70%;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#hire_me{
+    background-image: linear-gradient(90deg, cyan, rgb(3, 8, 134));
+    color: white;
+    font-size: small;
+    height: 40px;
+    width: 100px;
+}
+#resume{
+    background-color: rgb(5, 5, 57);
+    border: 2px;
+    border-color: rgb(254, 255, 255) ;
+    border-style: solid;
+}
+.button{
+    color:bisque;
+    font-size: small;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#portfolio{
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
+.contain{
+    font-size: large;
+    display: flex;
+    /* flex-wrap: nowrap; */
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+#container_1{
+    color: aquamarine;
+}
+.project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.PROJECT_NUM{
+    color: aqua;
+}
+.PROJECT_NAME{
+    font-size: xx-large;
+}
+.view_all{
+    background-image: linear-gradient(90deg, cyan, rgb(3, 8, 134));
+    color:bisque;
+    font-size: small;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 47%;
+
+}
+#services{
+    text-align: center;
+    font-size: xx-large;
+}
+.services_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.services_card ::before{
+    content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50px;
+  padding: 10px; /* control the border thickness */
+  background: linear-gradient(45deg, cyan, rgb(3, 8, 134));
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  pointer-events: none;
+}
+.services_card{
+    position: relative;
+  padding: 20px 30px;
+  margin: 5px;
+  display: inline-block;
+  padding: 30px;
+  box-shadow:0px 0px 30px 1px rgb(1, 86, 255);
+  border-radius: 50px;
+}
+#experience{
+    text-align: center;
+    font-size: xx-large;
+}
+.exp_contain{
+    display:flex;
+    justify-content: center;
+    gap:60px;
+    margin: 40px;
+
+}
+.exp_comp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.exp_comp img{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(5, 5, 57);
+    
+}
+.exp_comp img{
+    object-fit: contain;
+}
+
+.circle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+}
+.circle_1{
+    background-image: linear-gradient(0,  rgb(6, 169, 250), rgba(91, 20, 245, 0.981));
+    height: 200px;
+    width: 100px;
+    border-radius: 0 100px 100px 0 ; 
+}
+.circle_2{
+    background-image: linear-gradient(0deg,  rgb(6, 169, 250), rgba(91, 20, 245, 0.981));
+    height: 200px;
+    width: 100px;
+    border-radius: 100px 0 0px 100px;
+}
+.adjust{
+    height: 50px;
+}
+.actual_contact{
+    height: auto;
+    border-radius: 100px 100px 0 0;
+    background-image: linear-gradient(315deg,  rgb(6, 169, 250), rgba(91, 20, 245, 0.981));
+    z-index: 0;
+}
+h3{
+    text-align: center;
+    opacity: 1;
+}
+.contact_info{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20%;
+    margin: 20px;
+    opacity: 1;
+}
+.left{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 30px;
+    opacity: 1;
+}
+.bg{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-image: linear-gradient(315deg,  rgba(91, 20, 245, 0.981), rgb(6, 169, 250));
+
+}
+.mail_box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 30px;
+}
+#name, #email, #message, #submit{
+    border-radius: 10px;
+    color: grey;
+    background-color: rgb(40, 39, 39);
+    height: 35px;
+    width: 200px;
+    opacity: 1;
+}
+#message{
+    height: 80px;
+}
+#submit{
+    width: 70px;
+}
+.bar{
+    background-color: black;
+    height: 1px;
+}
+.cont_bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.socials div{
+    height: 50px;
+    width: 50px;
+    background-image:linear-gradient(315deg,  rgba(91, 20, 245, 0.981), rgb(6, 169, 250)) ;
+    border-radius: 10px;
+}
+.fb, .insta, .linkedin{
+    height: 40px;
+    width:40px;
+    margin:5px;
+}
