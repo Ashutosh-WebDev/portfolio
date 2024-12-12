@@ -5,30 +5,35 @@
     height: max-height;
     width: max-width;
     color: white;
+    /* position: relative;
+    z-index: 5;
+    opacity: 0.4; */
 }
 .logo{
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
+    position: relative;
+    z-index: 5;
 }
 a{
     color: inherit !important;
     text-decoration: none !important;
+    position: relative;
+    z-index: 5;
 }
 .nav_bar{
     display: flex; 
     float: right;
+    position: relative;
+    z-index: 5;
 }
 #home{
     color: aqua;
 }
-#contact{
-    background-image: linear-gradient(90deg, cyan, rgb(3, 8, 134));
-    border-radius: 3px;
-    padding: 5px 10px 5px  ;
-}
+
 .nav_comp{
     
-    font-size: 80%;
+    font-size: 120%;
     /* border: 1px solid white; */
     margin: 10px;
     padding: 2px;
@@ -40,6 +45,8 @@ p{
     font-weight: bold;
     padding-left: 10%;
     padding-top: 200px;
+    position: relative;
+    z-index: 5;
 }
 #role{
     line-height: 80%;
@@ -53,6 +60,8 @@ p{
     word-wrap: wrap;
     max-width: 60%;
     padding-top: 0;
+    position: relative;
+    z-index: 5;
 }
 #about_me_sec{
     display: flex;
@@ -61,54 +70,40 @@ p{
     gap: 10%;
     margin-left: 20%;
     margin-right: 20%;
-}
-.container {
-    /* width: 150px;
-    height: 150px; */
     position: relative;
-    margin: 30px;
-  }
+    z-index: 5;
+}
+
 .about_me{
     height: 200px;
     width: 200px;
     margin-top: 100px;
     margin-bottom: 100px;
-    position: absolute;
     top: 0;
     left: 100px;
-    opacity: 1;
-    background: #0057e3;
-}
-.square_3{
-    height: 5px;
-    width: 5px;
-    
-}
-.square_2{
-    height: 190px;
-    width: 190px;
-    margin-left: 10px;
-    border: white;
-    margin-top: 5px;
-    opacity: 1;
-    background:  rgb(5, 5, 57);
-    border-radius:5px ;
-    
+    position: relative;
+    z-index: 5;
 }
 .square{
-    height: 210px;
-    width: 210px;
-    margin-top: 110px;
-    margin-left: 100px;
-    margin-right: 10;
-    margin-bottom: 100px;
-    z-index: 9;
-    background: cyan;
+    height: 400px;
+    width: 400px;
+    z-index: 0;
+    position: relative;
+    background-color:cyan;
     border-radius: 5px;
+    top:-180px;
+    left: 20px;
+}
+.square_in{
+    background-color:black;
+    height: 380px;
+    width: 380px;
+    position: relative;
+    top: 10px;
+    left: 10px;
 }
 .About{
     color: white;
-    background-color: rgb(5, 5, 57);
     display: flexbox;
     justify-content: center;
     width: 70%;
@@ -117,20 +112,23 @@ p{
     margin-bottom: 100px;
 }
 #hire_me{
-    background-image: linear-gradient(90deg, cyan, rgb(3, 8, 134));
+    background-color:black;
     color: white;
     font-size: small;
+    border: 2px;
+    border-color: rgb(254, 255, 255) ;
+    border-style: solid;
     height: 40px;
     width: 100px;
 }
 #resume{
-    background-color: rgb(5, 5, 57);
+    background-color: black;
     border: 2px;
-    border-color: rgb(254, 255, 255) ;
+    border-color: white ;
     border-style: solid;
 }
 .button{
-    color:bisque;
+    color:white;
     font-size: small;
     height: 40px;
     width: 100px;
@@ -142,6 +140,8 @@ p{
     text-align: center;
     color: white;
     font-size: x-large;
+    position: relative;
+    z-index: 5;
 }
 .contain{
     font-size: large;
@@ -150,37 +150,41 @@ p{
     gap: 50px;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 5;
 }
 #container_1{
     color: aquamarine;
+    position: relative;
+    z-index: 5;
 }
 .project{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 500px;
+    position: relative;
+    z-index: 5;
 }
 .PROJECT_NUM{
     color: aqua;
+    position: relative;
+    z-index: 5;
 }
 .PROJECT_NAME{
     font-size: xx-large;
+    position: relative;
+    z-index: 5;
 }
-.view_all{
-    background-image: linear-gradient(90deg, cyan, rgb(3, 8, 134));
-    color:bisque;
-    font-size: small;
-    height: 40px;
-    width: 100px;
-    border-radius: 5px;
-    margin-left: 47%;
 
-}
 #services{
     text-align: center;
     font-size: xx-large;
+    position: relative;
+    z-index: 5;
 }
 .services_container{
     display: flex;
@@ -191,6 +195,8 @@ p{
     margin-bottom: 50px;
     margin-left: 20%;
     margin-right: 20%;
+    position: relative;
+    z-index: 5;
 }
 .services_card ::before{
     content: "";
@@ -205,6 +211,8 @@ p{
   -webkit-mask-composite: xor;
           mask-composite: exclude;
   pointer-events: none;
+  position: relative;
+  z-index: 5;
 }
 .services_card{
     position: relative;
@@ -214,16 +222,22 @@ p{
   padding: 30px;
   box-shadow:0px 0px 30px 1px rgb(1, 86, 255);
   border-radius: 50px;
+  position: relative;
+  z-index: 5;
 }
 #experience{
     text-align: center;
     font-size: xx-large;
+    position: relative;
+    z-index: 5;
 }
 .exp_contain{
     display:flex;
     justify-content: center;
     gap:60px;
     margin: 40px;
+    position: relative;
+    z-index: 5;
 
 }
 .exp_comp{
@@ -232,15 +246,20 @@ p{
     justify-content: center;
     align-items: center;
     gap: 5px;
+    position: relative;
+    z-index: 5;
 }
 .exp_comp img{
     height: 100px;
     width: 100px;
-    background-color: rgb(5, 5, 57);
+    position: relative;
+    z-index: 5;
     
 }
 .exp_comp img{
     object-fit: contain;
+    position: relative;
+    z-index: 5;
 }
 
 .circle{
@@ -250,27 +269,37 @@ p{
     opacity: 0.5;
     position: absolute;
     width: 100%;
+    position: relative;
+    z-index: 5;
+    top: 150px;
 }
 .circle_1{
-    background-image: linear-gradient(0,  rgb(6, 169, 250), rgba(91, 20, 245, 0.981));
+    background-color:black;;
     height: 200px;
     width: 100px;
     border-radius: 0 100px 100px 0 ; 
+    position: relative;
+    z-index: 5;
 }
 .circle_2{
-    background-image: linear-gradient(0deg,  rgb(6, 169, 250), rgba(91, 20, 245, 0.981));
+    background-color:black;;
     height: 200px;
     width: 100px;
     border-radius: 100px 0 0px 100px;
+    position: relative;
+    z-index: 6;
 }
 .adjust{
     height: 50px;
+    
 }
 .actual_contact{
     height: auto;
     border-radius: 100px 100px 0 0;
-    background-image: linear-gradient(315deg,  rgb(6, 169, 250), rgba(91, 20, 245, 0.981));
-    z-index: 0;
+    background-color:black;
+    position: relative;
+    z-index: 5;
+    
 }
 h3{
     text-align: center;
@@ -298,7 +327,7 @@ h3{
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    background-image: linear-gradient(315deg,  rgba(91, 20, 245, 0.981), rgb(6, 169, 250));
+    background-color:black;
 
 }
 .mail_box{
@@ -338,7 +367,7 @@ h3{
 .socials div{
     height: 50px;
     width: 50px;
-    background-image:linear-gradient(315deg,  rgba(91, 20, 245, 0.981), rgb(6, 169, 250)) ;
+    background-color:grey;
     border-radius: 10px;
 }
 .fb, .insta, .linkedin{
@@ -352,4 +381,50 @@ h3{
     background-color: black;
     z-index: 1000;
     width: 100%;
+}
+.profile{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    top: 200px;
+    z-index: 10;
+}
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+@keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+
+.stars, .twinkling, .clouds {
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display:block;
+}
+
+.stars {
+  background:#000 url(stars.png) repeat top center;
+  z-index:0;
+}
+
+.twinkling{
+  background:transparent url(twinkling.png) repeat top center;
+  z-index:1;
+  animation:move-twink-back 200s linear infinite;
+}
+
+.clouds{
+    background:transparent url(clouds.png) repeat top center;
+    z-index:2;
+    opacity: .4;
+    animation:move-clouds-back 200s linear infinite;
 }

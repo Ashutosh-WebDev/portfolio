@@ -46,17 +46,17 @@ function home() {
       <div id='about_me_sec'>
         {/* <div className='about_me_contain'> */}
           <div className='container'>
-
+          <img className="profile" src={require('./profile.jpeg')}/>
             <div className='square'>
-              <div  className='square_3'> </div>
-              <div className='square_2'></div>
+              <div className='square_in'>
+              </div>
             </div>
           </div>
         {/* </div> */}
         {/* <div className='about_me_contain'> */}
           <div className='About'>
             <h1>ABOUT ME</h1>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            I am Ashutosh Panda,B.Tech graduate from National Institute of Rourkela.I am proficient in MERN-stack(Web-Development) with hands on knowlege on socket, AI-integration and API intigration. I provide complete end-to-end solution to all web related needs. 
             <br/>
             <button className='button' id='hire_me'>HIRE ME</button>
             <button className='button' id='resume'>RESUME</button>
@@ -88,20 +88,22 @@ function home() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </div>
         </div>
-        <div className='contain_project'>
-        <div className='square'>
-              <div  className='square_3'> </div>
-              <div className='square_2'></div>
+        <div className='container'>
+          <img className="profile" src={require('./profile.jpeg')}/>
+            <div className='square'>
+              <div className='square_in'>
+              </div>
             </div>
-        </div>
+          </div>
       </div>
       <div className='project'>
-        <div className='contain_project'>
+      <div className='container'>
+          <img className="profile" src={require('./profile.jpeg')}/>
             <div className='square'>
-              <div  className='square_3'> </div>
-              <div className='square_2'></div>
+              <div className='square_in'>
+              </div>
             </div>
-        </div>
+          </div>
         <div className='contain_project'>
           <h1 className='PROJECT_NUM'>PROJECT 2</h1>
           <h1  className='PROJECT_NAME'>PROJECT NAME</h1>
@@ -118,20 +120,22 @@ function home() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </div>
         </div>
-        <div className='contain_project'>
-        <div className='square'>
-              <div  className='square_3'> </div>
-              <div className='square_2'></div>
+        <div className='container'>
+          <img className="profile" src={require('./profile.jpeg')}/>
+            <div className='square'>
+              <div className='square_in'>
+              </div>
             </div>
-        </div>
+          </div>
       </div>
       <div className='project'>
-        <div className='contain_project'>
+      <div className='container'>
+          <img className="profile" src={require('./profile.jpeg')}/>
             <div className='square'>
-              <div  className='square_3'> </div>
-              <div className='square_2'></div>
+              <div className='square_in'>
+              </div>
             </div>
-        </div>
+          </div>
         <div className='contain_project'>
           <h1 className='PROJECT_NUM'>PROJECT 4</h1>
           <h1  className='PROJECT_NAME'>PROJECT NAME</h1>
@@ -139,9 +143,6 @@ function home() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </div>
         </div>
-      </div>
-      <div>
-        <button className='view_all'>VIEW ALL</button>
       </div>
       <div id='services'>
         SERVICES
