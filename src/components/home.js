@@ -2,9 +2,16 @@
 import'./home.css';
 function home() {
   return (
+    <>
+      <div class="BG">
+          <div class="stars"></div>
+        <div class="twinkling"></div> 
+       <div class="clouds"></div>
+       </div>
     <body class="backG">
       <div class="top_area">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"/>
+        <div className='fix'>
         <img className="logo" src={require('./logo.png')}/>
         <div className='nav_bar'>
           <div className='nav_comp' id='home'>
@@ -26,6 +33,7 @@ function home() {
             <a href='#CONTACT'>CONTACT</a>
           </div>
         </div>
+        </div>
         <p>
         I'm a
         </p>
@@ -38,7 +46,7 @@ function home() {
       <div id='about_me_sec'>
         {/* <div className='about_me_contain'> */}
           <div className='container'>
-          <img className="logo" src={require('./logo.png')}/>
+
             <div className='square'>
               <div  className='square_3'> </div>
               <div className='square_2'></div>
@@ -264,6 +272,7 @@ function home() {
         </div>
       </div>
     </body> 
+    </>
   )
 };
 

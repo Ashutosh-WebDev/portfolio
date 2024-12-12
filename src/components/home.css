@@ -346,3 +346,10 @@ h3{
     width:40px;
     margin:5px;
 }
+.fix{
+    position: fixed;
+    width: fit-content;
+    background-color: black;
+    z-index: 1000;
+    width: 100%;
+}
