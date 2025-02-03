@@ -1,5 +1,13 @@
-
+import'./script';
 import'./home.css';
+// function myFunction() {
+//   var x = document.getElementById("myTopnav");
+//   if (x.ClassName === "nav_bar") {
+//     x.ClassName += " responsive";
+//   } else {
+//     x.ClassName = "topnav";
+//   }
+// }
 function home() {
   return (
     <>
@@ -13,7 +21,8 @@ function home() {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"/>
         <div className='fix'>
         <img className="logo" src={require('./logo.png')}/>
-        <div className='nav_bar'>
+        <div class='nav_bar' id="myTopnav">
+
           <div className='nav_comp' id='home'>
            <a href='#role'>HOME</a>
           </div>
@@ -32,6 +41,7 @@ function home() {
           <div className='nav_comp' id='contact'>
             <a href='#CONTACT'>CONTACT</a>
           </div>
+          {/* <a href="javascript:void(0);" class="icon" onclick={myFunction()}>&#9776;</a> */}
         </div>
         </div>
         <p>
@@ -83,64 +93,64 @@ function home() {
       <div className='project'>
         <div className='contain_project'>
           <h1 className='PROJECT_NUM'>PROJECT 1</h1>
-          <h1  className='PROJECT_NAME'>PROJECT NAME</h1>
-          <div>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <h1  className='PROJECT_NAME'>SNAPPY</h1>
+          <div >
+          SNAPPY- an anonymous chat app where you browse through a list of strangers, speak your heart out and let your mind to rest. I have used socket.io as my chat server and MERN as the tech-stack. I have used bcrypt as encoding for passwords and any confidencial information saved in database.
           </div>
         </div>
         <div className='container'>
-          <img className="profile" src={require('./profile.jpeg')}/>
-            <div className='square'>
-              <div className='square_in'>
+          <img className="project_image" src={require('./PROJECT-1.png')}/>
+            <div className='square_project'>
+              <div className='square_in_project'>
               </div>
             </div>
           </div>
       </div>
       <div className='project'>
-      <div className='container'>
-          <img className="profile" src={require('./profile.jpeg')}/>
-            <div className='square'>
-              <div className='square_in'>
+        <div className='container'>
+          <img className="project_image" src={require('./PROJECT-1.png')}/>
+            <div className='square_project'>
+              <div className='square_in_project'>
               </div>
             </div>
           </div>
-        <div className='contain_project'>
+          <div className='contain_project'>
           <h1 className='PROJECT_NUM'>PROJECT 2</h1>
-          <h1  className='PROJECT_NAME'>PROJECT NAME</h1>
+          <h1  className='PROJECT_NAME'>SNAPPY</h1>
           <div>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          SNAPPY- an anonymous chat app where you browse through a list of strangers, speak your heart out and let your mind to rest. I have used socket.io as my chat server and MERN as the tech-stack. I have used bcrypt as encoding for passwords and any confidencial information saved in database.
           </div>
         </div>
       </div>
       <div className='project'>
         <div className='contain_project'>
           <h1 className='PROJECT_NUM'>PROJECT 3</h1>
-          <h1  className='PROJECT_NAME'>PROJECT NAME</h1>
+          <h1  className='PROJECT_NAME'>SNAPPY</h1>
           <div>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          SNAPPY- an anonymous chat app where you browse through a list of strangers, speak your heart out and let your mind to rest. I have used socket.io as my chat server and MERN as the tech-stack. I have used bcrypt as encoding for passwords and any confidencial information saved in database.
           </div>
         </div>
         <div className='container'>
-          <img className="profile" src={require('./profile.jpeg')}/>
-            <div className='square'>
-              <div className='square_in'>
+          <img className="project_image" src={require('./PROJECT-1.png')}/>
+            <div className='square_project'>
+              <div className='square_in_project'>
               </div>
             </div>
           </div>
       </div>
       <div className='project'>
-      <div className='container'>
-          <img className="profile" src={require('./profile.jpeg')}/>
-            <div className='square'>
-              <div className='square_in'>
+        <div className='container'>
+          <img className="project_image" src={require('./PROJECT-1.png')}/>
+            <div className='square_project'>
+              <div className='square_in_project'>
               </div>
             </div>
           </div>
-        <div className='contain_project'>
-          <h1 className='PROJECT_NUM'>PROJECT 4</h1>
-          <h1  className='PROJECT_NAME'>PROJECT NAME</h1>
+          <div className='contain_project'>
+          <h1 className='PROJECT_NUM'>PROJECT 2</h1>
+          <h1  className='PROJECT_NAME'>SNAPPY</h1>
           <div>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          SNAPPY- an anonymous chat app where you browse through a list of strangers, speak your heart out and let your mind to rest. I have used socket.io as my chat server and MERN as the tech-stack. I have used bcrypt as encoding for passwords and any confidencial information saved in database.
           </div>
         </div>
       </div>
