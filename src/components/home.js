@@ -32,7 +32,7 @@ function home() {
           <div className='nav_comp'>
             <a href='#portfolio'>PORTFOLIO</a>
           </div>
-          <div className='nav_comp'>
+          <div className='nav_comp' id='hide'>
             <a href='#services'>SERVICES</a>
           </div>
           <div className='nav_comp'>
@@ -77,23 +77,25 @@ function home() {
           PORTFOLIO
         <div className='contain'>  
           <div className='cotainer_portfolio' id='container_1'>
-            container
+            <a href='#ID1'>SNAPPY</a>
           </div>
           <div className='cotainer_portfolio'>
-            container
+          <a href='#ID2'>PORTFOLIO</a>
           </div>
           <div className='cotainer_portfolio'>
-            container
+          <a href='#ID3'>SNAPPY</a>
           </div>
           <div className='cotainer_portfolio'>
-            container
+          <a href='#ID4'>SNAPPY</a>
           </div>
         </div>
       </div>  
-      <div className='project'>
+      <br/>
+      <br/>
+      <div className='project'id='ID1'>
         <div className='contain_project'>
-          <h1 className='PROJECT_NUM'>PROJECT 1</h1>
-          <h1  className='PROJECT_NAME'>SNAPPY</h1>
+          <h1 className='PROJECT_NUM' ><a href='https://app-chat-frontend-xdlm.onrender.com'>PROJECT 1 </a></h1>
+          <h1  className='PROJECT_NAME'><a href='https://app-chat-frontend-xdlm.onrender.com'>SNAPPY </a></h1>
           <div >
           SNAPPY- an anonymous chat app where you browse through a list of strangers, speak your heart out and let your mind to rest. I have used socket.io as my chat server and MERN as the tech-stack. I have used bcrypt as encoding for passwords and any confidencial information saved in database.
           </div>
@@ -106,25 +108,25 @@ function home() {
             </div>
           </div>
       </div>
-      <div className='project'>
+      <div className='project' id='ID2'>
         <div className='container'>
-          <img className="project_image" src={require('./PROJECT-1.png')}/>
+          <img className="project_image" src={require('./PROJECT-2.png')}/>
             <div className='square_project'>
               <div className='square_in_project'>
               </div>
             </div>
           </div>
           <div className='contain_project'>
-          <h1 className='PROJECT_NUM'>PROJECT 2</h1>
-          <h1  className='PROJECT_NAME'>SNAPPY</h1>
+          <h1 className='PROJECT_NUM' ><a href='https://portfolio-ashutosh-hj6j.onrender.com/'>PROJECT 2</a></h1>
+          <h1  className='PROJECT_NAME'><a href='https://portfolio-ashutosh-hj6j.onrender.com/'>PORTFOLIO</a></h1>
           <div>
-          SNAPPY- an anonymous chat app where you browse through a list of strangers, speak your heart out and let your mind to rest. I have used socket.io as my chat server and MERN as the tech-stack. I have used bcrypt as encoding for passwords and any confidencial information saved in database.
+          PORTFOLIO- a static web-site containing all my creations ,hobby and joy. Made with REACTJS and deployed using render.com. Design constatly inspired and constantly changing like the twikling stary night background.
           </div>
         </div>
       </div>
-      <div className='project'>
+      <div className='project' id='ID3'>
         <div className='contain_project'>
-          <h1 className='PROJECT_NUM'>PROJECT 3</h1>
+          <h1 className='PROJECT_NUM' >PROJECT 3</h1>
           <h1  className='PROJECT_NAME'>SNAPPY</h1>
           <div>
           SNAPPY- an anonymous chat app where you browse through a list of strangers, speak your heart out and let your mind to rest. I have used socket.io as my chat server and MERN as the tech-stack. I have used bcrypt as encoding for passwords and any confidencial information saved in database.
@@ -138,7 +140,7 @@ function home() {
             </div>
           </div>
       </div>
-      <div className='project'>
+      <div className='project' id='ID4'>
         <div className='container'>
           <img className="project_image" src={require('./PROJECT-1.png')}/>
             <div className='square_project'>
@@ -147,7 +149,7 @@ function home() {
             </div>
           </div>
           <div className='contain_project'>
-          <h1 className='PROJECT_NUM'>PROJECT 2</h1>
+          <h1 className='PROJECT_NUM'>PROJECT 4</h1>
           <h1  className='PROJECT_NAME'>SNAPPY</h1>
           <div>
           SNAPPY- an anonymous chat app where you browse through a list of strangers, speak your heart out and let your mind to rest. I have used socket.io as my chat server and MERN as the tech-stack. I have used bcrypt as encoding for passwords and any confidencial information saved in database.
@@ -224,6 +226,7 @@ function home() {
           C++
         </div>
         <div className="exp_comp">
+
         </div>
       </div> 
       <div id='CONTACT'>

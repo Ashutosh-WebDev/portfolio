@@ -153,6 +153,9 @@ p{
     position: relative;
     z-index: 5;
 }
+.container_porfolio{
+    z-index: 5;
+}
 #container_1{
     color: aquamarine;
     position: relative;
@@ -489,4 +492,11 @@ h3{
     width: 100%;
     text-align: left;
   }
+
+}
+#ID3,#ID4,#services,.services_container,#hide{
+    display: none;
+}
+div{
+    align-items: center;
 }
