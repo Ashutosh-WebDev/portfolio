@@ -68,8 +68,8 @@ function home() {
             <h1>ABOUT ME</h1>
             I am Ashutosh Panda,B.Tech graduate from National Institute of Technology, Rourkela.I am proficient in MERN-stack(Web-Development) with hands on knowlege on socket, AI-integration and API integration. I provide complete end-to-end solution to all web related needs. 
             <br/>
-            <button className='button' id='hire_me'>HIRE ME</button>
-            <button className='button' id='resume'>RESUME</button>
+            <button className='button' id='hire_me'><a href='https://www.linkedin.com/in/ashuatp/'>HIRE ME</a></button>
+            <button className='button' id='resume'><a href='https://drive.google.com/file/d/1xDGhdBhPyKf0olDWs6tMxsftakwiakDz/view?usp=drive_link'>RESUME</a></button>
           </div>
         {/* </div> */}
       </div>
