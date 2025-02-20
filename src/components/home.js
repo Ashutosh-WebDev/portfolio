@@ -92,15 +92,16 @@ function home() {
       </div>  
       <br/>
       <br/>
+      <div className='projects'>
       <div className='project'id='ID1'>
         <div className='contain_project'>
           <h1 className='PROJECT_NUM' ><a href='https://app-chat-frontend-xdlm.onrender.com'>PROJECT 1 </a></h1>
           <h1  className='PROJECT_NAME'><a href='https://app-chat-frontend-xdlm.onrender.com'>SNAPPY </a></h1>
-          <div >
+          <div className='para'>
           SNAPPY- an anonymous chat app where you browse through a list of strangers, speak your heart out and let your mind to rest. I have used socket.io as my chat server and MERN as the tech-stack. I have used bcrypt as encoding for passwords and any confidencial information saved in database.
           </div>
         </div>
-        <div className='container'>
+        <div className='container_pro'>
           <img className="project_image" src={require('./PROJECT-1.png')}/>
             <div className='square_project'>
               <div className='square_in_project'>
@@ -109,17 +110,17 @@ function home() {
           </div>
       </div>
       <div className='project' id='ID2'>
-        <div className='container'>
-          <img className="project_image" src={require('./PROJECT-2.png')}/>
-            <div className='square_project'>
-              <div className='square_in_project'>
+        <div className='container_pro'>
+          <img className="project_image" src={require('./PROJECT-2.png')}id='project_image'/>
+            <div className='square_project'id="square_project">
+              <div className='square_in_project'id="square_in_project">
               </div>
             </div>
           </div>
           <div className='contain_project'>
           <h1 className='PROJECT_NUM' ><a href='https://portfolio-ashutosh-hj6j.onrender.com/'>PROJECT 2</a></h1>
           <h1  className='PROJECT_NAME'><a href='https://portfolio-ashutosh-hj6j.onrender.com/'>PORTFOLIO</a></h1>
-          <div>
+          <div className='para'>
           PORTFOLIO- a static web-site containing all my creations ,hobby and joy. Made with REACTJS and deployed using render.com. Design constatly inspired and constantly changing like the twikling stary night background.
           </div>
         </div>
@@ -155,6 +156,7 @@ function home() {
           SNAPPY- an anonymous chat app where you browse through a list of strangers, speak your heart out and let your mind to rest. I have used socket.io as my chat server and MERN as the tech-stack. I have used bcrypt as encoding for passwords and any confidencial information saved in database.
           </div>
         </div>
+      </div>
       </div>
       <div id='services'>
         SERVICES
@@ -244,7 +246,8 @@ function home() {
             <div className='left'>
               <div>
                 <h4>Drop Me a Message</h4>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Fell free to mail me or text me over whatsapp.I will revert back as soon as i can.
+                Please do not call during weekdays.Looking forward to collaborative opportunities and exciting growth together with the community.
                 <br/>
                 <img className="logo" src={require('./logo.png')}/>
                 +91 9040499041

@@ -65,7 +65,6 @@ p{
 }
 #about_me_sec{
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 10%;
     margin-left: 20%;
@@ -166,8 +165,8 @@ p{
     justify-content: center;
     align-items: center;
     gap: 5%;
-    margin-left:30%;
-    margin-right: 20%;
+    margin-left:10%;
+    margin-right: 10%;
     height: 500px;
     position: relative;
     z-index: 5;
@@ -463,7 +462,7 @@ h3{
   }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .nav_bar .nav_comp:not(:first-child) a{
       display: none;
     }
@@ -491,12 +490,175 @@ h3{
     display: block;
     width: 100%;
     text-align: left;
-  }
+  } */
 
-}
+/* } */
 #ID3,#ID4,#services,.services_container,#hide{
     display: none;
 }
 div{
     align-items: center;
+}
+
+@media screen and (max-width: 1000px) 
+{
+    .logo{
+    height: 50px;
+    width: 50px;
+    }
+    .fix{
+        position: fixed;
+        width: fit-content;
+        background-color: black;
+        z-index: 1000;
+        width: 100%;
+    }
+    .nav_comp{
+        display: none;
+    }
+
+
+
+
+
+    #about_me_sec{
+        display: flex;
+        align-items: center;
+        gap: 10%;
+        width: 700px;
+        position: relative;
+        z-index: 5;
+    }
+    .about_me{
+        height: 100px;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        top: 0;
+        left: 50px;
+        position: relative;
+        z-index: 5;
+    }
+    .square{
+        height: 200px;
+        width: 200px;
+        z-index: 0;
+        position: relative;
+        background-color:cyan;
+        border-radius: 5px;
+        top:-90px;
+        left: 10px;
+    }
+    .square_in{
+        background-color:black;
+        height: 190px;
+        width: 190px;
+        position: relative;
+        top: 5px;
+        left: 5px;
+    }
+    .About{
+        color: white;
+        display: flexbox;
+        width: 600px;
+    
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .profile{
+        height: 200px;
+        width: 200px;
+        position: relative;
+        top: 100px;
+        z-index: 10;
+    }
+    #portfolio{
+        margin-left: 350px;
+    }
+    .contain{
+        margin-left:50px;
+    }
+    .para{
+        display: none;
+    }
+    .project{
+        flex-direction: column;
+        height:50px;
+        margin: 0;
+    }
+    .contain_project{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-left: 385px;
+    }
+    .PROJECT_NUM{
+        width: 200px;
+    }
+    .PROJECT_NAME{
+        width: 200px;
+    }
+    .project_image{
+        height: 400px;
+        width: 650px;
+        position: relative;
+        top: 00px;
+        margin-left:-150px;
+        z-index: 10;
+    }
+    .square_project{
+        height: 400px;
+        width: 650px;
+        z-index: 0;
+        position: relative;
+        background-color:cyan;
+        border-radius: 5px;
+        top:-380px;
+        left: 20px;
+        margin-left: -150px;
+    }
+    .square_in_project{
+        background-color:black;
+        height: 380px;
+        width: 630px;
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+    .container_pro{
+        height: 0px;
+        width:0px;
+        margin: 0;
+    }
+    #experience{
+        margin: 500px;
+    }
+    .projects{
+        display: flex;
+        flex-direction: column;
+        gap: 510px;
+    }
+    #ID2{
+        display: flex;
+        flex-direction: row-reverse;
+        gap:10px;
+    }
+    #project_image{
+        margin-top: 25px;
+        margin-left: -550px;
+    }
+    #square_project{
+        margin-left: -550px;
+    }
+    #experience{
+        margin-left: 306px;
+        gap:100px;
+        margin-bottom: 0;
+    }
+    .exp_contain{
+        margin-left:400px;
+    }
+    #CONTACT{
+        display: none;
+    }
 }
