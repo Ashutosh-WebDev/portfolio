@@ -66,7 +66,7 @@ function home() {
         {/* <div className='about_me_contain'> */}
           <div className='About'>
             <h1>ABOUT ME</h1>
-            I am Ashutosh Panda,B.Tech graduate from National Institute of Rourkela.I am proficient in MERN-stack(Web-Development) with hands on knowlege on socket, AI-integration and API intigration. I provide complete end-to-end solution to all web related needs. 
+            I am Ashutosh Panda,B.Tech graduate from National Institute of Technology, Rourkela.I am proficient in MERN-stack(Web-Development) with hands on knowlege on socket, AI-integration and API integration. I provide complete end-to-end solution to all web related needs. 
             <br/>
             <button className='button' id='hire_me'>HIRE ME</button>
             <button className='button' id='resume'>RESUME</button>
@@ -82,12 +82,12 @@ function home() {
           <div className='cotainer_portfolio'>
           <a href='#ID2'>PORTFOLIO</a>
           </div>
-          <div className='cotainer_portfolio'>
+          {/* <div className='cotainer_portfolio'>
           <a href='#ID3'>SNAPPY</a>
           </div>
           <div className='cotainer_portfolio'>
           <a href='#ID4'>SNAPPY</a>
-          </div>
+          </div> */}
         </div>
       </div>  
       <br/>
